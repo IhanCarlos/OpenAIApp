@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E77C1CA2A127B9C000BB762 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E77C1C92A127B9C000BB762 /* Message.swift */; };
 		1E87C3672A03E1A4007B9D5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3662A03E1A4007B9D5D /* AppDelegate.swift */; };
 		1E87C3692A03E1A4007B9D5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3682A03E1A4007B9D5D /* SceneDelegate.swift */; };
-		1E87C36B2A03E1A4007B9D5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C36A2A03E1A4007B9D5D /* ViewController.swift */; };
-		1E87C36E2A03E1A4007B9D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E87C36C2A03E1A4007B9D5D /* Main.storyboard */; };
+		1E87C36B2A03E1A4007B9D5D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C36A2A03E1A4007B9D5D /* ChatViewController.swift */; };
 		1E87C3702A03E1AE007B9D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E87C36F2A03E1AE007B9D5D /* Assets.xcassets */; };
 		1E87C3732A03E1AE007B9D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E87C3712A03E1AE007B9D5D /* LaunchScreen.storyboard */; };
+		1E87C37C2A03E213007B9D5D /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E87C37B2A03E213007B9D5D /* OpenAISwift */; };
+		1E87C37E2A03E4C5007B9D5D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C37D2A03E4C5007B9D5D /* API.swift */; };
+		1E87C3852A03F012007B9D5D /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3842A03F012007B9D5D /* ChatScreen.swift */; };
+		1E87C3872A03F02A007B9D5D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3862A03F02A007B9D5D /* ChatViewModel.swift */; };
+		1E87C38A2A03F060007B9D5D /* ServiceManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3892A03F060007B9D5D /* ServiceManeger.swift */; };
+		1E87C38C2A03F19D007B9D5D /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C38B2A03F19D007B9D5D /* ChatService.swift */; };
+		1E87C39A2A044A7B007B9D5D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3932A044A7B007B9D5D /* UIFont+Extension.swift */; };
+		1E87C39B2A044A7B007B9D5D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3942A044A7B007B9D5D /* UIColor+Extension.swift */; };
+		1E87C39C2A044A7B007B9D5D /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3952A044A7B007B9D5D /* UIButton+Extension.swift */; };
+		1E87C39D2A044A7B007B9D5D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3962A044A7B007B9D5D /* UIViewController+Extension.swift */; };
+		1E87C39E2A044A7B007B9D5D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3972A044A7B007B9D5D /* String+Extension.swift */; };
+		1E87C39F2A044A7B007B9D5D /* send.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E87C3992A044A7B007B9D5D /* send.wav */; };
+		1E87C3A22A05459F007B9D5D /* OutgoingTextMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3A12A05459E007B9D5D /* OutgoingTextMessageTableViewCell.swift */; };
+		1E87C3A42A0932C7007B9D5D /* IncomingTextMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E87C3A32A0932C7007B9D5D /* IncomingTextMessageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E77C1C92A127B9C000BB762 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1E87C3632A03E1A4007B9D5D /* OpenAIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E87C3662A03E1A4007B9D5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E87C3682A03E1A4007B9D5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E87C36A2A03E1A4007B9D5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E87C36D2A03E1A4007B9D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E87C36A2A03E1A4007B9D5D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		1E87C36F2A03E1AE007B9D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E87C3722A03E1AE007B9D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E87C3742A03E1AE007B9D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E87C37D2A03E4C5007B9D5D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1E87C3842A03F012007B9D5D /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		1E87C3862A03F02A007B9D5D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		1E87C3892A03F060007B9D5D /* ServiceManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManeger.swift; sourceTree = "<group>"; };
+		1E87C38B2A03F19D007B9D5D /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		1E87C3932A044A7B007B9D5D /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		1E87C3942A044A7B007B9D5D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1E87C3952A044A7B007B9D5D /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1E87C3962A044A7B007B9D5D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1E87C3972A044A7B007B9D5D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1E87C3992A044A7B007B9D5D /* send.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = send.wav; sourceTree = "<group>"; };
+		1E87C3A12A05459E007B9D5D /* OutgoingTextMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutgoingTextMessageTableViewCell.swift; sourceTree = "<group>"; };
+		1E87C3A32A0932C7007B9D5D /* IncomingTextMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingTextMessageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +58,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E87C37C2A03E213007B9D5D /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E77C1C82A127B7E000BB762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E77C1C92A127B9C000BB762 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1E87C35A2A03E1A4007B9D5D = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +92,100 @@
 		1E87C3652A03E1A4007B9D5D /* OpenAIApp */ = {
 			isa = PBXGroup;
 			children = (
+				1E77C1C82A127B7E000BB762 /* Model */,
+				1E87C3912A044A7B007B9D5D /* Utils */,
+				1E87C3882A03F048007B9D5D /* Service */,
+				1E87C37F2A03EEFA007B9D5D /* Chat */,
 				1E87C3662A03E1A4007B9D5D /* AppDelegate.swift */,
 				1E87C3682A03E1A4007B9D5D /* SceneDelegate.swift */,
-				1E87C36A2A03E1A4007B9D5D /* ViewController.swift */,
-				1E87C36C2A03E1A4007B9D5D /* Main.storyboard */,
 				1E87C36F2A03E1AE007B9D5D /* Assets.xcassets */,
 				1E87C3712A03E1AE007B9D5D /* LaunchScreen.storyboard */,
 				1E87C3742A03E1AE007B9D5D /* Info.plist */,
 			);
 			path = OpenAIApp;
+			sourceTree = "<group>";
+		};
+		1E87C37F2A03EEFA007B9D5D /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3812A03EF93007B9D5D /* Screen */,
+				1E87C3832A03EFAF007B9D5D /* ViewController */,
+				1E87C3822A03EF9B007B9D5D /* ViewModel */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		1E87C3812A03EF93007B9D5D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3842A03F012007B9D5D /* ChatScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		1E87C3822A03EF9B007B9D5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3862A03F02A007B9D5D /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E87C3832A03EFAF007B9D5D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C36A2A03E1A4007B9D5D /* ChatViewController.swift */,
+				1E87C3A02A05455D007B9D5D /* Cell */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1E87C3882A03F048007B9D5D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3892A03F060007B9D5D /* ServiceManeger.swift */,
+				1E87C37D2A03E4C5007B9D5D /* API.swift */,
+				1E87C38B2A03F19D007B9D5D /* ChatService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1E87C3912A044A7B007B9D5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3922A044A7B007B9D5D /* Extension */,
+				1E87C3982A044A7B007B9D5D /* Sound */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1E87C3922A044A7B007B9D5D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3932A044A7B007B9D5D /* UIFont+Extension.swift */,
+				1E87C3942A044A7B007B9D5D /* UIColor+Extension.swift */,
+				1E87C3952A044A7B007B9D5D /* UIButton+Extension.swift */,
+				1E87C3962A044A7B007B9D5D /* UIViewController+Extension.swift */,
+				1E87C3972A044A7B007B9D5D /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1E87C3982A044A7B007B9D5D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3992A044A7B007B9D5D /* send.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		1E87C3A02A05455D007B9D5D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1E87C3A12A05459E007B9D5D /* OutgoingTextMessageTableViewCell.swift */,
+				1E87C3A32A0932C7007B9D5D /* IncomingTextMessageTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +204,9 @@
 			dependencies = (
 			);
 			name = OpenAIApp;
+			packageProductDependencies = (
+				1E87C37B2A03E213007B9D5D /* OpenAISwift */,
+			);
 			productName = OpenAIApp;
 			productReference = 1E87C3632A03E1A4007B9D5D /* OpenAIApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 1E87C35A2A03E1A4007B9D5D;
+			packageReferences = (
+				1E87C37A2A03E213007B9D5D /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = 1E87C3642A03E1A4007B9D5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E87C39F2A044A7B007B9D5D /* send.wav in Resources */,
 				1E87C3732A03E1AE007B9D5D /* LaunchScreen.storyboard in Resources */,
 				1E87C3702A03E1AE007B9D5D /* Assets.xcassets in Resources */,
-				1E87C36E2A03E1A4007B9D5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +265,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E87C36B2A03E1A4007B9D5D /* ViewController.swift in Sources */,
+				1E87C39D2A044A7B007B9D5D /* UIViewController+Extension.swift in Sources */,
+				1E87C36B2A03E1A4007B9D5D /* ChatViewController.swift in Sources */,
 				1E87C3672A03E1A4007B9D5D /* AppDelegate.swift in Sources */,
+				1E87C3852A03F012007B9D5D /* ChatScreen.swift in Sources */,
+				1E87C3A22A05459F007B9D5D /* OutgoingTextMessageTableViewCell.swift in Sources */,
+				1E87C39C2A044A7B007B9D5D /* UIButton+Extension.swift in Sources */,
+				1E87C37E2A03E4C5007B9D5D /* API.swift in Sources */,
+				1E87C39E2A044A7B007B9D5D /* String+Extension.swift in Sources */,
+				1E87C3872A03F02A007B9D5D /* ChatViewModel.swift in Sources */,
+				1E87C38C2A03F19D007B9D5D /* ChatService.swift in Sources */,
+				1E87C39A2A044A7B007B9D5D /* UIFont+Extension.swift in Sources */,
+				1E87C3A42A0932C7007B9D5D /* IncomingTextMessageTableViewCell.swift in Sources */,
+				1E87C38A2A03F060007B9D5D /* ServiceManeger.swift in Sources */,
+				1E77C1CA2A127B9C000BB762 /* Message.swift in Sources */,
 				1E87C3692A03E1A4007B9D5D /* SceneDelegate.swift in Sources */,
+				1E87C39B2A044A7B007B9D5D /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E87C36C2A03E1A4007B9D5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E87C36D2A03E1A4007B9D5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E87C3712A03E1AE007B9D5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +423,6 @@
 				INFOPLIST_FILE = OpenAIApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +432,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ihanCarlos.OpenAIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +452,6 @@
 				INFOPLIST_FILE = OpenAIApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,9 +461,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ihanCarlos.OpenAIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E87C37A2A03E213007B9D5D /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E87C37B2A03E213007B9D5D /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E87C37A2A03E213007B9D5D /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E87C35B2A03E1A4007B9D5D /* Project object */;
 }
