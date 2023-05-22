@@ -22,26 +22,40 @@ class ChatViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        hideKeyboardWhenTappedAround()
         screen?.delegate(delegate: self)
         screen?.configTableView(delegate: self, dataSource: self)
         viewModel.delegate(delegate: self)
-        // viewModel.featMessage(message: "Crie uma receita de boto de chocolate")
     }
 }
 extension ChatViewController: ChatViewModelProtocol {
     func success() {
-        print("Warning!, the application was well implemented")
+        reloadTableView()
     }
     
     func error(message: String) {
-        print("Warning!,the application was not well implemented\(message)")
+        reloadTableView()
+    }
+    
+    func vibrate() {
+        let generator = UIImpactFeedbackGenerator(style: .medium)
+        generator.prepare()
+        generator.impactOccurred()
+    }
+    
+    func reloadTableView() {
+        screen?.reloadTableView()
+        vibrate()
     }
 }
 
 extension ChatViewController: ChatScreenProtocol {
     func sendMessage(text: String) {
-        print(text)
+        viewModel.addMessage(message: text, type: .user)
+        reloadTableView()
+        viewModel.featMessage(message: text)
     }
+    
 }
 
 extension ChatViewController: UITableViewDelegate, UITableViewDataSource {

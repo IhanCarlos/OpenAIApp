@@ -10,7 +10,6 @@ import AVFoundation
 
 protocol ChatScreenProtocol: AnyObject {
     func sendMessage(text: String)
-    
 }
 
 class ChatScreen: UIView {
@@ -73,7 +72,6 @@ class ChatScreen: UIView {
         tableview.register(IncomingTextMessageTableViewCell.self, forCellReuseIdentifier: IncomingTextMessageTableViewCell.identifier)
         tableview.backgroundColor = .clear
         tableview.separatorStyle = .none
-        tableview.transform = CGAffineTransform(scaleX: 1, y: -1)
         return tableview
     }()
     
@@ -154,6 +152,9 @@ class ChatScreen: UIView {
         }catch let error {
             print("Error playing sound")
         }
+    }
+    public func reloadTableView() {
+        tableView.reloadData()
     }
 }
 
