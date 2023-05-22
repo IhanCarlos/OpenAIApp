@@ -109,9 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				1E87C3812A03EF93007B9D5D /* Screen */,
+				1E87C3A02A05455D007B9D5D /* Cell */,
 				1E87C3832A03EFAF007B9D5D /* ViewController */,
 				1E87C3822A03EF9B007B9D5D /* ViewModel */,
-				1E87C3A02A05455D007B9D5D /* Cell */,
 			);
 			path = Chat;
 			sourceTree = "<group>";

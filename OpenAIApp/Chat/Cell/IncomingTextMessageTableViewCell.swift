@@ -51,7 +51,7 @@ class IncomingTextMessageTableViewCell: UITableViewCell {
     
     private func setUpConstraints() {
         NSLayoutConstraint.activate([
-            contactMessageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: -20),
+            contactMessageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             contactMessageView.topAnchor.constraint(equalTo: topAnchor, constant: 10),
             contactMessageView.widthAnchor.constraint(lessThanOrEqualToConstant: 250),
             
